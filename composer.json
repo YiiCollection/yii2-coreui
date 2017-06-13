@@ -1,0 +1,21 @@
+{
+    "name": "ddmytruk/yii2-coreui",
+    "description": "core UI theme",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmytro Dmytruk",
+            "email": "d.dmytruk@icloud.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "^2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ddmytruk\\coreui\\": ""
+        }
+    }
+}
