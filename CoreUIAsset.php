@@ -12,13 +12,13 @@ use yii\web\AssetBundle;
 
 class CoreUIAsset extends AssetBundle
 {
-
-    public $basePath = '@vendor/ddmytruk/yii2-user';
-    public $baseUrl = '@web';
+    public $sourcePath = '@vendor/ddmytruk/yii2-coreui';
     public $css = [
+        'css/font-awesome.min.css',
+        'css/simple-line-icons.css',
         'css/style.css',
     ];
     public $js = [
-    ];
 
+    ];
 }
